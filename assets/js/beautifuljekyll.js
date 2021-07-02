@@ -107,6 +107,24 @@ var BeautifulJekyllJS = {
       $(".img-desc").hide();
     }
   }
+  
+  changeColor:function(){
+	var paragraphs = document.getElementsByClassName("blog-tags");
+   
+    for(var i = 0; i < paragraphs.length; i++)
+    {
+        var innerText = paragraphs[i].innerText;
+        var innerTextSplit = innerText.split("");
+        paragraphs[i].innerText = ""
+       
+        for(var j = 0; j < innerTextSplit.length; j++) {
+            var randomColor =getRandomColor();
+ 
+            innerTextSplit[j] = '<span style="background-color: ' + randomColor + '">' + innerTextSplit[j] + '</span>';
+            paragraphs[i].innerHTML += innerTextSplit[j];
+        }
+    }
+  }
 };
 
 // 2fc73a3a967e97599c9763d05e564189
