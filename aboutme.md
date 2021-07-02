@@ -3,6 +3,9 @@ layout: page
 title: About me
 subtitle: 내 이름은 장인수다! 나는
 ---
+<br/>
+<br/>
+
 ### 백엔드 개발자  
 
 ### 숭실대학교 미디어경영학과를 졸업  
