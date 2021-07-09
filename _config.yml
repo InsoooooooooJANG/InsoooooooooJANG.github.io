@@ -87,7 +87,7 @@ feed_show_tags: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-#navbar-col: "#EAEAEA"
+navbar-col: "#238bec"
 navbar-text-col: "#d6f794"
 navbar-border-col: "#238bec"
 page-col: "#FFFFFF"
